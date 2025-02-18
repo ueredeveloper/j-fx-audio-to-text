@@ -1,0 +1,70 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+target/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+build/
+.nb-gradle/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+# Maven
+/target/
+
+# Gradle
+.gradle/
+build/
+
+# Other
+.DS_Store
+
+# OS-specific files
+Thumbs.db
+desktop.ini
+
+# Gradle Wrapper
+gradlew
+gradlew.bat
+gradle-wrapper.jar
+
+# Local .properties files
+*.properties
+
+# javadoc
+javadoc/
+
+*.wav

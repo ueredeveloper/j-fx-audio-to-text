@@ -1,0 +1,1 @@
+Grava áudio e converte para texto.
