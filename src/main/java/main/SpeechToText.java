@@ -9,13 +9,13 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
-public class SpeechToTextExampleUsingGoogle {
+public class SpeechToText {
 
     public static void main(String[] args) {
         try {
             // Carrega as credenciais do classpath
-            InputStream credentialsStream = SpeechToTextExampleUsingGoogle.class.getClassLoader()
-                    .getResourceAsStream("credentials/speak-to-text-451701-c6812e90e2f2.json");
+            InputStream credentialsStream = SpeechToText.class.getClassLoader()
+                    .getResourceAsStream("credentials/speak-to-text-451701-f722dabeb309.json");
             if (credentialsStream == null) {
                 System.err.println("Arquivo de credenciais não encontrado no classpath.");
                 return;
