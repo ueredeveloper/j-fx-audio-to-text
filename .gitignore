@@ -68,3 +68,7 @@ gradle-wrapper.jar
 javadoc/
 
 *.wav
+
+# Arquivos de credenciais
+src/main/resources/credentials/*
+*.json

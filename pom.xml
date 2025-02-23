@@ -4,7 +4,6 @@
 	<artifactId>j-fx-speach-to-text</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-
 	<name>j-fx-speach-to-text</name>
 	<url>http://maven.apache.org</url>
 
@@ -14,7 +13,27 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 
+	<dependencyManagement>
+		<dependencies>
+			<!-- Importa o BOM do Google Cloud para gerenciar versões -->
+			<dependency>
+				<groupId>com.google.cloud</groupId>
+				<artifactId>libraries-bom</artifactId>
+				<version>26.52.0</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+
 	<dependencies>
+
+		<!-- Biblioteca do Google Cloud Speech-to-Text -->
+		<dependency>
+			<groupId>com.google.cloud</groupId>
+			<artifactId>google-cloud-speech</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>net.sf.phat</groupId>
